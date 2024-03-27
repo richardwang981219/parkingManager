@@ -1,0 +1,173 @@
+.mainBody{
+    /* display: flex; */
+    /* width: 100%; */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.navbar {
+    background-color: #22222288;
+}
+.navbar a{
+    color: white !important;;
+}
+#special-text{
+    color:black !important;
+}
+
+video{
+    position:fixed;
+    top:0;
+    visibility:visible;
+    width:100%; 
+    height:auto;
+    filter: blur(2px);
+    filter: brightness(50%);
+    /* max-width: auto; */
+}
+#videotext{
+    left:35%; top:30%; color:white; font-size:60px; position:absolute;
+}
+
+
+.hidden-logo{
+    display: none;
+}
+
+
+.nav-logo-img {
+
+
+    flex-basis: 40%;
+    width: 60%;
+    position: relative;
+
+}
+
+
+.nav-logo {
+    flex-basis:40%;
+    width: 100%;
+}
+
+.nav-logo-text {
+    flex-basis: 10%;
+    width:100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;;  
+
+}
+
+
+@media screen and (max-width: 1640px){
+    video{
+        width: auto;
+        height: 100%;
+    }
+
+}
+@media screen and (max-width: 1400px){
+
+    .nav-logo-text{
+        flex-basis: 40%;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+    .hidden-logo{
+        display: block;
+    }
+
+    video{
+        transform: translate(-20%, 0%);
+    }
+    #videotext{
+        font-size: 50px;
+    }
+    .mainBody{
+        height: 100vh;  
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    .hidden-logo{
+        display: block;
+    }
+    .hidden-logo{
+        display: block;
+    }
+    video{
+        transform: translate(-20%, 0%);
+    }
+
+    #videotext{
+        font-size: 35px;
+    }
+
+}
+
+
+@media screen and (max-device-width: 750px){
+
+    .hidden-logo{
+        display: block;
+    }
+    .mainBody{
+        flex-direction: column;
+    }
+
+    video{
+        width: auto;
+        height: 832px;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+    #videotext{
+        left:10%;
+        font-size:35px;
+    }
+}
+
+
+.auth-body {
+    height:100%; 
+    align-items:center; 
+    position:relative; 
+    top:-10em
+}
+
+.table  td {
+    text-align: center !important;
+    padding: 5px !important;
+    height: 50px;
+    width: 100px;
+}
+.data-table {
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+.dataTables_length {
+    margin-top: 20px !important;
+}
+.dataTables_filter {
+    margin-top: 20px !important;
+}
+select[name='product-table_length'] {
+    width: 50% !important;
+}
+.dataTables_wrapper {
+    overflow-x: scroll;
+}
+#product-table tr.active{
+    background-color: #555555;
+}
+.menu-item  {
+    color: white;
+}

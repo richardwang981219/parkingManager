@@ -1,0 +1,36 @@
+{
+  "menu": [
+    {
+      "url": "/users",
+      "name": "Users",
+      "icon": "text-black-500 text-3xl fas fa-user-circle",
+      "slug": "users"
+
+    },
+    {
+      "url": "/vehicles",
+      "name": "Vehicles",
+      "icon": "text-black-500 text-3xl fas fa-truck",
+      "slug": "vehicles"
+    },
+    {
+      "url": "/parkingspaces",
+      "name":"Parking spaces",
+      "icon":"text-black-500 text-3xl fas fa-tv",
+      "slug":"Parkingspaces"
+    },
+    {
+      "url": "/electricity",
+      "name":"Electricity",
+      "icon":"text-black-500 text-3xl fas fa-calculator",
+      "slug":"electricity"
+    },
+
+    {
+      "url": "/log",
+      "name":"Log",
+      "icon":"text-black-500 text-3xl fas fa-book-open",
+      "slug":"Log"
+    }
+  ]
+}
